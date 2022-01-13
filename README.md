@@ -5,5 +5,5 @@
 <a href="https://github.com/PabloDaniel0/Weblive/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/PabloDaniel0/Weblive?color=00CC6A"></a>
 <a href="https://github.com/PabloDaniel0/Weblive/blob/main/License"><img alt="GitHub license" src="https://img.shields.io/github/license/PabloDaniel0/Weblive?color=FFB900"></a>
 <center>
-<img src="https://raw.githubusercontent.com/PabloDaniel0/Weblive/main/Weblive.png" width="400" height="400"/>
+<img src="https://raw.githubusercontent.com/PabloDaniel0/Weblive/master/Weblive.png" width="400" height="400"/>
 </center>
