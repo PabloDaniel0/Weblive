@@ -32,6 +32,7 @@ Partial Class Form1
         '
         'IconButton1
         '
+        Me.IconButton1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.IconButton1.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.IconButton1.IconChar = FontAwesome.Sharp.IconChar.File
         Me.IconButton1.IconColor = System.Drawing.Color.Black
@@ -46,6 +47,7 @@ Partial Class Form1
         '
         'IconButton2
         '
+        Me.IconButton2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.IconButton2.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.IconButton2.IconChar = FontAwesome.Sharp.IconChar.FolderPlus
         Me.IconButton2.IconColor = System.Drawing.Color.Black
@@ -60,6 +62,7 @@ Partial Class Form1
         '
         'IconButton3
         '
+        Me.IconButton3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.IconButton3.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.IconButton3.IconChar = FontAwesome.Sharp.IconChar.FileCode
         Me.IconButton3.IconColor = System.Drawing.Color.Black
@@ -74,6 +77,7 @@ Partial Class Form1
         '
         'IconButton4
         '
+        Me.IconButton4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.IconButton4.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.IconButton4.IconChar = FontAwesome.Sharp.IconChar.FolderOpen
         Me.IconButton4.IconColor = System.Drawing.Color.Black
