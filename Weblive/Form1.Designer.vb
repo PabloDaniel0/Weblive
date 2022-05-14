@@ -22,12 +22,14 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.IconButton1 = New FontAwesome.Sharp.IconButton()
         Me.IconButton2 = New FontAwesome.Sharp.IconButton()
         Me.IconButton3 = New FontAwesome.Sharp.IconButton()
         Me.IconButton4 = New FontAwesome.Sharp.IconButton()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.SuspendLayout()
         '
         'IconButton1
@@ -93,7 +95,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 39.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(12, 9)
+        Me.Label1.Location = New System.Drawing.Point(12, -7)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(297, 71)
         Me.Label1.TabIndex = 4
@@ -102,23 +104,32 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.Font = New System.Drawing.Font("Segoe UI Variable Display", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(12, 87)
+        Me.Label2.Location = New System.Drawing.Point(12, 64)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(280, 89)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "Selecciona una acción para comenzar"
+        '
+        'Panel1
+        '
+        Me.Panel1.Location = New System.Drawing.Point(12, 139)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(297, 186)
+        Me.Panel1.TabIndex = 6
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(635, 337)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.IconButton4)
         Me.Controls.Add(Me.IconButton3)
         Me.Controls.Add(Me.IconButton2)
         Me.Controls.Add(Me.IconButton1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.Text = "Weblive"
         Me.ResumeLayout(False)
@@ -136,4 +147,5 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents Label2 As Label
+    Friend WithEvents Panel1 As Panel
 End Class
